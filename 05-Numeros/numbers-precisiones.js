@@ -11,7 +11,7 @@ console.log(b);
 // Precisión
 let c = 0.2;
 
-//muestra un resultado NO exacto, por la composicion de bytes que hace js, 
+//muestra un resultado NO exacto, por la composicion de bits que hace js, 
 //como trata las variables y que tipo de memoria les asigna a cada una de ellas
 console.log(b + c);     // muestra: 0.30000000000000004
 
