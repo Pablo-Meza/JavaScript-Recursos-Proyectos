@@ -26,8 +26,8 @@ console.log(d);                 // 9.899999999999999
 console.log(typeof d);          // number
 
 // .toFixed(x) - Limitar el número de decimales al valor x
-console.log(d.toFixed(4));      //9.9000
-console.log(typeof d.toFixed(4));// string
+console.log(d.toFixed(4));          //9.9000
+console.log(typeof d.toFixed(4));   //string
 
 let e = 2645.12300450089;
 let f = 256153215;

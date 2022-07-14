@@ -68,7 +68,7 @@ console.log(parseFloat(num3))   // 4
 // | 7 0111 | F 1111 |
 /***  Tabla fin ***/
 
-//parseInt(numHex:convierte numero hexadecimal a number, 16: base 16) 
+//parseInt(numHex:convierte numero hexadecimal a number, 16: numero de base a convertir) 
 let numHex = '0x3a5b7';
 console.log(parseInt(numHex, 16));  // 239031
 
