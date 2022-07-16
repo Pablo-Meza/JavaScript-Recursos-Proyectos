@@ -7,8 +7,8 @@ while (i < max) {
     i++;
 }
 
-i = 15;
 // Do...while
+i = 15;
 do {
     console.log("Estoy en el do while")
 } while (i < max)

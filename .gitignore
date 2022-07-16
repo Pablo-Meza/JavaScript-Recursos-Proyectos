@@ -1,3 +1,4 @@
 # Ignora la carpeta "archivos comprimidos",  el archivo: 'apuntesRecorrerObjetos.js' , etc
 archivos comprimidos
 apuntesRecorrerObjetos.js
+*.pdf
