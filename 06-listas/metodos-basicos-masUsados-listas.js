@@ -11,7 +11,6 @@ console.log(array[1])   // hola
 console.log(array[2])   // false
 console.log(array[3])   // { id: 5 }
 
-
 // Métodos para introducir nuevos valores en nuestros arrays
 // .push() .unshift() => Mutan el valor de nuestro array
 
