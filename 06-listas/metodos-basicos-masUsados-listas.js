@@ -50,4 +50,4 @@ console.log(array3);    // [ 1, 2, 'hola0', 'hola1', 4, 5, 6 ]
 
 // Modificar valores .splice(indice, 1, valores)
 array3.splice(2, 1, 'modificado');   
-console.log(array3);    // [ 1, 2, 'modificado', 'chau', 4, 5, 6 ]
+console.log(array3);    // [ 1, 2, 'modificado', 'hola-2', 4, 5, 6 ]
