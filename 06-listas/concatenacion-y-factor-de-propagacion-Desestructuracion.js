@@ -15,6 +15,6 @@ console.log(...lista3)              // hola 2 false null adiós 8 true undefined
 const lista4 = [...lista1, ...lista2]
 console.log(lista4)                 // [ 'hola', 2, false, null, 'adiós', 8, true, undefined ]
 
-// ERROR!! Mal entendido el concepto del factor de propagación (desestructuracion)
+// ERROR!! Mal entendido el concepto del factor de propagación
 const lista5 = [lista1, lista2]
 console.log(lista5)                 // [ [ 'hola', 2, false, null ], [ 'adiós', 8, true, undefined ] ]
