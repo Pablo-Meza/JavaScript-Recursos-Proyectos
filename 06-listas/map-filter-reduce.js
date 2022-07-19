@@ -23,7 +23,7 @@ const listaObjetos = [
     { nombre: "Miguel", edad: 28 },
     { nombre: "Lucía", edad: 3 },
     { nombre: "Analia", edad: 29}
-]
+];
 // const personasMayores = listaObjetos.filter(obj => {
 //     if (obj.edad > 30) {
 //         return true
@@ -55,7 +55,7 @@ const suma = valores.reduce((acumulado, posSiguient , i, arrayOriginal) => {
 // i:               indice actual del valor actual (puede omitirse)
 //arrayOriginal:    array original                 (puede omitirse)
 
-console.log(suma)   // 5 
+console.log(suma)   // 3
 
 const numeros = [2,4,6,8,10];
 const resultado = numeros.reduce((acum, valAct )=>{
@@ -70,13 +70,14 @@ const objeto = [{nombre:'juan',edad:20},{nombre:'Marcos',edad:25},{nombre:'Luis'
 const sumaEdades= objeto.reduce((ac, item)=>{
     return ac+= item.edad
 },0); // iniciamos en 0 para que no haya proble con que acumula un tipo de dato objeto con numerico
-console.log(sumaEdades);
+console.log(sumaEdades);    // 75
 
-const cadena=['mi','nombre','es','pablo'];
+const cadena=['mi','nombre','es','Pablo'];
 const reducido = cadena.reduce((ac,item)=>{
     return ac+=' '+item 
 },'Hola! ');
-console.log(reducido);
+
+console.log(reducido); // Hola! mi nombre es Pablo 
 
 // devuelve el valor mas grande
 res = numeros.reduce((ac, item)=>{
