@@ -64,7 +64,7 @@ const resultado = numeros.reduce((acum, valAct )=>{
     return acum+valAct  // acumula el resultado y lo manda al parametro acum, para que este se vuelva a iterar (si no ponemos una operacion iterara siempre el mismo valor, osea el inicial)
 });
 console.log(resultado); //30
-
+//suma numeros, atributos de objetos, ejemplo con suma de todas las edades, {edad}
 // reduce arreglo de OBJETOS y solucion al sumar acumulando tipo objetos:
 const objeto = [{nombre:'juan',edad:20},{nombre:'Marcos',edad:25},{nombre:'Luis',edad:30}];
 const sumaEdades= objeto.reduce((ac, item)=>{
